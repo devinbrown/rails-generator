@@ -60,11 +60,10 @@ module Myapp
     config.assets.version = '1.0'
 
     config.generators do |g|
-        g.orm             :active_record
-        g.template_engine :erb
-        g.test_framework  :test_unit, :fixture => false
-        g.stylesheets     false
-        g.helper          :my_helper
+      g.orm             :active_record
+      g.template_engine :erb
+      g.test_framework  :test_unit, :fixture => false
+      g.stylesheets     false
     end
   end
 end
