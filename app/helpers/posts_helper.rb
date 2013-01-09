@@ -1,3 +1,4 @@
+# generated from erb
 module PostsHelper
-  attr_reader :posts, :post
+  attr_reader :posts, post
 end
