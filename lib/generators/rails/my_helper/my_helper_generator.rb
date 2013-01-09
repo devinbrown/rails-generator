@@ -6,4 +6,5 @@ module #{class_name}Helper
 end
     FILE
   end
+  hook_for :test_framework, :as => :helper
 end
